@@ -1,0 +1,59 @@
+{
+    "name": "webisters/events",
+    "description": "Webisters Events Library",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "events",
+        "listen",
+        "trigger"
+    ],
+    "authors": [
+        {
+            "name": "Hafiz Muhammad Moaz",
+            "email": "hafizmoazkhalid@gmail.com",
+            "homepage": "https://github.com/HafizMMoaz"
+        }
+    ],
+    "homepage": "https://webisters.com/packages/events",
+    "support": {
+        "email": "support@webisters.com",
+        "issues": "https://github.com/webisters/events/issues",
+        "forum": "https://github.com/webisters/forum",
+        "source": "https://github.com/webisters/events",
+        "docs": "https://webisters.com"
+    },
+    "funding": [
+        {
+            "type": "Webisters Sponsor",
+            "url": "https://webisters.com/sponsor"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "webisters/coding-standard": "*",
+        "jetbrains/phpstorm-attributes": "^1.1",
+        "phpunit/phpunit": "^10.5"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Framework\\Events\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Events\\": "tests/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
+
+
